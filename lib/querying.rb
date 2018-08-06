@@ -3,7 +3,6 @@ def select_books_titles_and_years_in_first_series_order_by_year
 end
 
 def select_name_and_motto_of_char_with_longest_motto
-  binding.pry
   "SELECT name, motto FROM characters GROUP BY motto ORDER BY MAX(motto) DESC LIMIT 1"
 end
 
