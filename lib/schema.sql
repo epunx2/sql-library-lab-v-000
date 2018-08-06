@@ -32,7 +32,7 @@ CREATE TABLE characters (
 );
 
 CREATE TABLE character_books (
-    id PRIMARY KEY INTEGER,
+    id INTEGER PRIMARY KEY,
     book_id INTEGER,
     character_id INTEGER
 );
